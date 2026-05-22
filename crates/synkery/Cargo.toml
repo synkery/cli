@@ -1,0 +1,11 @@
+[package]
+name = "synkery"
+version = "0.1.3"
+edition = "2021"
+description = "Early placeholder for the Synkery file sync and backup CLI."
+license = "MIT"
+homepage = "https://synkery.com"
+repository = "https://github.com/synkery/cli"
+readme = "README.md"
+keywords = ["file", "sync", "backup", "cli"]
+categories = ["command-line-utilities", "filesystem"]

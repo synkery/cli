@@ -1,0 +1,31 @@
+{
+  "name": "synkery",
+  "version": "0.1.0",
+  "description": "Early placeholder for the Synkery file sync and backup CLI.",
+  "license": "MIT",
+  "homepage": "https://synkery.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synkery/cli.git",
+    "directory": "npm"
+  },
+  "bugs": {
+    "url": "https://github.com/synkery/cli/issues"
+  },
+  "bin": {
+    "synkery": "bin/synkery.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "file",
+    "sync",
+    "backup",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

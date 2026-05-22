@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synkery"
+version = "0.1.0"
+description = "Early placeholder for the Synkery file sync and backup CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["file", "sync", "backup", "cli"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: System :: Archiving :: Backup",
+  "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://synkery.com"
+Repository = "https://github.com/synkery/cli"
+Issues = "https://github.com/synkery/cli/issues"
+
+[project.scripts]
+synkery = "synkery.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

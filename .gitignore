@@ -1,0 +1,8 @@
+target/
+node_modules/
+dist/
+build/
+*.egg-info/
+.venv/
+__pycache__/
+*.py[cod]
